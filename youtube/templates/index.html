@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YouTube Video Q&A</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Q&A Assistant</h1>
+        <form method="POST">
+            <label for="youtube_url">YouTube URL:</label>
+            <input type="text" name="youtube_url" required>
+
+            <label for="question">Your Question:</label>
+            <input type="text" name="question" required>
+
+            <button type="submit">Ask</button>
+        </form>
+    </div>
+</body>
+</html>

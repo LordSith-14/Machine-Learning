@@ -1,0 +1,12 @@
+Flask
+pytube
+moviepy
+langdetect
+langchain
+google-cloud-speech
+google-cloud-translate
+google-api-python-client
+youtube-transcript-api
+sentence-transformers
+faiss-cpu
+python-dotenv

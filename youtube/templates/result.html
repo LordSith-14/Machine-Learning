@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Answer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Assistant's Answer</h1>
+        <p>{{ answer }}</p>
+        <a href="{{ url_for('index') }}">Ask Another Question</a>
+    </div>
+</body>
+</html>
